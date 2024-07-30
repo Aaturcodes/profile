@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>My Projects</h2>
+<p>Here you will find a collection of my work.</p>
+
+<section class="projects-gallery">
+    <div class="project-item">
+        <img src="{{ url_for('static', filename='images/project1.jpg') }}" alt="Project 1" class="project-img" id="project1">
+        <div class="overlay">Project 1</div>
+    </div>
+    <div class="project-item">
+        <img src="{{ url_for('static', filename='images/project2.jpg') }}" alt="Project 2" class="project-img" id="project2">
+        <div class="overlay">Project 2</div>
+    </div>
+</section>
+{% endblock %}

@@ -26,6 +26,10 @@ nav a {
     margin: 0 1rem;
     text-decoration: none;
 }
+.pict {
+tex-align: center;
+ padding: 2rem;
+}
 
 .hero {
     text-align: center;
